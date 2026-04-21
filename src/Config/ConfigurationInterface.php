@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MoabTech\Procore\Config;
+namespace MJHarris\Procore\Config;
 
 /**
  * Interface ConfigurationInterface

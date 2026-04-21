@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace MoabTech\Procore;
+namespace MJHarris\Procore;
 
-use MoabTech\Procore\Api\ApiInterface;
-use MoabTech\Procore\Exception\RuntimeException;
-use MoabTech\Procore\HttpClient\Message\ResponseMediator;
+use MJHarris\Procore\Api\ApiInterface;
+use MJHarris\Procore\Exception\RuntimeException;
+use MJHarris\Procore\HttpClient\Message\ResponseMediator;
 use ValueError;
 
 final class Paginator implements PaginatorInterface

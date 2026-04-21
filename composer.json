@@ -1,18 +1,18 @@
 {
-    "name": "moab-tech/procore-php-sdk",
-    "description": "Procore PHP SDK",
+    "name": "mjharris/procore-php-sdk",
+    "description": "Procore PHP SDK — MJ Harris fork of moab-tech/procore-php-sdk",
     "keywords": [
-        "moab-tech",
+        "mjharris",
         "procore-php-sdk"
     ],
-    "homepage": "https://github.com/moab-tech/procore-php-sdk",
+    "homepage": "https://github.com/mjharris/procore-php-sdk",
     "license": "MIT",
     "authors": [
         {
             "name": "Chris Baswell",
             "email": "chris@moab-tech.com",
             "homepage": "https://moab-tech.com",
-            "role": "Developer"
+            "role": "Original author"
         }
     ],
     "require": {
@@ -40,12 +40,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MoabTech\\Procore\\": "src"
+            "MJHarris\\Procore\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MoabTech\\Procore\\Tests\\": "tests"
+            "MJHarris\\Procore\\Tests\\": "tests"
         }
     },
     "scripts": {

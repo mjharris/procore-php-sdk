@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MoabTech\Procore\HttpClient;
+namespace MJHarris\Procore\HttpClient;
 
 use Http\Client\Common\HttpMethodsClient;
 use Http\Client\Common\HttpMethodsClientInterface;

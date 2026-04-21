@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MoabTech\Procore\HttpClient\Plugin;
+namespace MJHarris\Procore\HttpClient\Plugin;
 
 use Http\Client\Common\Plugin\Journal;
 use Psr\Http\Client\ClientExceptionInterface;

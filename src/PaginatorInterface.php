@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace MoabTech\Procore;
+namespace MJHarris\Procore;
 
-use MoabTech\Procore\Api\ApiInterface;
+use MJHarris\Procore\Api\ApiInterface;
 
 interface PaginatorInterface
 {

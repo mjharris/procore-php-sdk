@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace MoabTech\Procore\HttpClient\Plugin;
+namespace MJHarris\Procore\HttpClient\Plugin;
 
 use Http\Client\Common\Plugin;
 use Http\Promise\Promise;
-use MoabTech\Procore\Exception\ApiLimitExceededException;
-use MoabTech\Procore\Exception\AuthenticationException;
-use MoabTech\Procore\Exception\ErrorException;
-use MoabTech\Procore\Exception\RuntimeException;
-use MoabTech\Procore\Exception\ValidationFailedException;
-use MoabTech\Procore\HttpClient\Message\ResponseMediator;
+use MJHarris\Procore\Exception\ApiLimitExceededException;
+use MJHarris\Procore\Exception\AuthenticationException;
+use MJHarris\Procore\Exception\ErrorException;
+use MJHarris\Procore\Exception\RuntimeException;
+use MJHarris\Procore\Exception\ValidationFailedException;
+use MJHarris\Procore\HttpClient\Message\ResponseMediator;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 

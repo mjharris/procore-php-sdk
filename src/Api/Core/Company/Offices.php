@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace MoabTech\Procore\Api\Core\Company;
+namespace MJHarris\Procore\Api\Core\Company;
 
-use MoabTech\Procore\Api\ApiInterface;
-use MoabTech\Procore\Api\CompaniesAbstractApi;
-use MoabTech\Procore\HttpClient\Util\UriBuilder;
+use MJHarris\Procore\Api\ApiInterface;
+use MJHarris\Procore\Api\CompaniesAbstractApi;
+use MJHarris\Procore\HttpClient\Util\UriBuilder;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
 class Offices extends CompaniesAbstractApi implements ApiInterface

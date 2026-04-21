@@ -1,21 +1,21 @@
 <?php
 
-namespace MoabTech\Procore;
+namespace MJHarris\Procore;
 
 use Http\Client\Common\Plugin\AddHostPlugin;
 use Http\Client\Common\Plugin\HeaderDefaultsPlugin;
 use Http\Client\Common\Plugin\HistoryPlugin;
 use Http\Client\Common\Plugin\RedirectPlugin;
-use MoabTech\Procore\Api\Core\CoreResources;
-use MoabTech\Procore\Api\Me;
-use MoabTech\Procore\Api\Oauth;
-use MoabTech\Procore\Config\Configuration;
-use MoabTech\Procore\Exception\ConfigurationException;
-use MoabTech\Procore\HttpClient\Builder;
-use MoabTech\Procore\HttpClient\Plugin\AuthHeaders;
-use MoabTech\Procore\HttpClient\Plugin\ExceptionThrower;
-use MoabTech\Procore\HttpClient\Plugin\History;
-use MoabTech\Procore\HttpClient\Plugin\ProcoreHeaders;
+use MJHarris\Procore\Api\Core\CoreResources;
+use MJHarris\Procore\Api\Me;
+use MJHarris\Procore\Api\Oauth;
+use MJHarris\Procore\Config\Configuration;
+use MJHarris\Procore\Exception\ConfigurationException;
+use MJHarris\Procore\HttpClient\Builder;
+use MJHarris\Procore\HttpClient\Plugin\AuthHeaders;
+use MJHarris\Procore\HttpClient\Plugin\ExceptionThrower;
+use MJHarris\Procore\HttpClient\Plugin\History;
+use MJHarris\Procore\HttpClient\Plugin\ProcoreHeaders;
 
 class Client
 {

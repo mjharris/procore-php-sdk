@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace MoabTech\Procore\Api\Core\Company;
+namespace MJHarris\Procore\Api\Core\Company;
 
-use MoabTech\Procore\Api\CompaniesAbstractApi;
-use MoabTech\Procore\HttpClient\Util\UriBuilder;
+use MJHarris\Procore\Api\CompaniesAbstractApi;
+use MJHarris\Procore\HttpClient\Util\UriBuilder;
 
 class CompanyUploads extends CompaniesAbstractApi
 {

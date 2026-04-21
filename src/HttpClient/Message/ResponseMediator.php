@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace MoabTech\Procore\HttpClient\Message;
+namespace MJHarris\Procore\HttpClient\Message;
 
-use MoabTech\Procore\Exception\RuntimeException;
-use MoabTech\Procore\HttpClient\Util\JsonArray;
+use MJHarris\Procore\Exception\RuntimeException;
+use MJHarris\Procore\HttpClient\Util\JsonArray;
 use Psr\Http\Message\ResponseInterface;
 
 /**

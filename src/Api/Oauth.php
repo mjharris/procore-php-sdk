@@ -1,9 +1,9 @@
 <?php
 
-namespace MoabTech\Procore\Api;
+namespace MJHarris\Procore\Api;
 
-use MoabTech\Procore\Client;
-use MoabTech\Procore\Exception\MissingArgumentException;
+use MJHarris\Procore\Client;
+use MJHarris\Procore\Exception\MissingArgumentException;
 
 class Oauth extends AbstractApi
 {

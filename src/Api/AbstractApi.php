@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace MoabTech\Procore\Api;
+namespace MJHarris\Procore\Api;
 
 use Http\Message\MultipartStream\MultipartStreamBuilder;
-use MoabTech\Procore\Client;
-use MoabTech\Procore\Exception\RuntimeException;
-use MoabTech\Procore\HttpClient\Message\ResponseMediator;
-use MoabTech\Procore\HttpClient\Util\JsonArray;
-use MoabTech\Procore\HttpClient\Util\QueryStringBuilder;
+use MJHarris\Procore\Client;
+use MJHarris\Procore\Exception\RuntimeException;
+use MJHarris\Procore\HttpClient\Message\ResponseMediator;
+use MJHarris\Procore\HttpClient\Util\JsonArray;
+use MJHarris\Procore\HttpClient\Util\QueryStringBuilder;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;

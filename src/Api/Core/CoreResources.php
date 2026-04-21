@@ -1,22 +1,22 @@
 <?php
 
-namespace MoabTech\Procore\Api\Core;
+namespace MJHarris\Procore\Api\Core;
 
-use MoabTech\Procore\Api\Core\Company\Companies;
-use MoabTech\Procore\Api\Core\Company\CompanyUploads;
-use MoabTech\Procore\Api\Core\Company\ConstructionVolume;
-use MoabTech\Procore\Api\Core\Company\Offices;
-use MoabTech\Procore\Api\Core\Company\Programs;
-use MoabTech\Procore\Api\Core\Company\ProjectBidTypes;
-use MoabTech\Procore\Api\Core\Company\ProjectOwnerTypes;
-use MoabTech\Procore\Api\Core\Company\ProjectRegions;
-use MoabTech\Procore\Api\Core\Company\ProjectStages;
-use MoabTech\Procore\Api\Core\Company\ProjectTypes;
-use MoabTech\Procore\Api\Core\Company\Roles;
-use MoabTech\Procore\Api\Core\Company\SubmittalStatuses;
-use MoabTech\Procore\Api\Core\Company\Trades;
-use MoabTech\Procore\Api\Core\CompanyDirectory\CompaniesInsurances;
-use MoabTech\Procore\Api\Core\Portfolio\Projects;
+use MJHarris\Procore\Api\Core\Company\Companies;
+use MJHarris\Procore\Api\Core\Company\CompanyUploads;
+use MJHarris\Procore\Api\Core\Company\ConstructionVolume;
+use MJHarris\Procore\Api\Core\Company\Offices;
+use MJHarris\Procore\Api\Core\Company\Programs;
+use MJHarris\Procore\Api\Core\Company\ProjectBidTypes;
+use MJHarris\Procore\Api\Core\Company\ProjectOwnerTypes;
+use MJHarris\Procore\Api\Core\Company\ProjectRegions;
+use MJHarris\Procore\Api\Core\Company\ProjectStages;
+use MJHarris\Procore\Api\Core\Company\ProjectTypes;
+use MJHarris\Procore\Api\Core\Company\Roles;
+use MJHarris\Procore\Api\Core\Company\SubmittalStatuses;
+use MJHarris\Procore\Api\Core\Company\Trades;
+use MJHarris\Procore\Api\Core\CompanyDirectory\CompaniesInsurances;
+use MJHarris\Procore\Api\Core\Portfolio\Projects;
 
 trait CoreResources
 {

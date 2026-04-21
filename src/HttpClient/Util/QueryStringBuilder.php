@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MoabTech\Procore\HttpClient\Util;
+namespace MJHarris\Procore\HttpClient\Util;
 
 /**
  * @internal

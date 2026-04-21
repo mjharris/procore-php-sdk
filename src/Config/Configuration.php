@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace MoabTech\Procore\Config;
+namespace MJHarris\Procore\Config;
 
-use MoabTech\Procore\Exception\ConfigurationException;
+use MJHarris\Procore\Exception\ConfigurationException;
 
 class Configuration implements ConfigurationInterface
 {

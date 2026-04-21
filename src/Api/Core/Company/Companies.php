@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace MoabTech\Procore\Api\Core\Company;
+namespace MJHarris\Procore\Api\Core\Company;
 
-use MoabTech\Procore\Api\AbstractApi;
-use MoabTech\Procore\Api\ApiInterface;
+use MJHarris\Procore\Api\AbstractApi;
+use MJHarris\Procore\Api\ApiInterface;
 
 class Companies extends AbstractApi implements ApiInterface
 {

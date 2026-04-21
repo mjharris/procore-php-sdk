@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MoabTech\Procore\Api;
+namespace MJHarris\Procore\Api;
 
 interface ApiInterface
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace MoabTech\Procore\Api;
+namespace MJHarris\Procore\Api;
 
-use MoabTech\Procore\Client;
-use MoabTech\Procore\Exception\ConfigurationException;
+use MJHarris\Procore\Client;
+use MJHarris\Procore\Exception\ConfigurationException;
 
 abstract class CompaniesAbstractApi extends AbstractApi
 {
